@@ -51,7 +51,6 @@
 		5E25A0B2F58A1DC71D3D095E /* IndoorMuseumNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAAD985B0FF3AF55E964A33 /* IndoorMuseumNavigationViewController.m */; };
 		67D720CC13969DD22BFA987A /* australia-large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D94F429262C3A09166D73F /* australia-large@2x.png */; };
 		696DC26814A711ED1FB8ACC8 /* step7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7AB12C7756274D40E649762 /* step7@2x.png */; };
-		6C86DB77A73CAEE2C48E6668 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F59372BD761533A2A6B470A /* GoogleMaps.bundle */; };
 		6E44FC6890A0979EED438270 /* step4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CBE24F5F8C7DF19AE8452C /* step4@2x.png */; };
 		6FC1A0CD8C09A8A7A8C394AA /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 193951C11D1549E7701FFC40 /* libc++.dylib */; };
 		7151879999E96F2B5F8EC9AD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DFE1BF52A3A8AFFF379322 /* CoreFoundation.framework */; };
@@ -94,6 +93,7 @@
 		C230F93CE1D3114716A8BB21 /* aeroplane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 799CC7F35C34DAA014613DDF /* aeroplane@2x.png */; };
 		C38470C15BFF9DAA51DB24CE /* DoubleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A578CA16809EBB3047B3C573 /* DoubleMapViewController.m */; };
 		C6C66578EE0A3295A2392185 /* x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 487E4999CFF757EA18C569D8 /* x29.png */; };
+		C6E97D63C5212999CD919E2B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDE3AE2072FBAE723CA01AE /* libPods.a */; };
 		C8FAEF11B1140F995C4AF50E /* Samples.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F8041B5649C26BCE75231 /* Samples.m */; };
 		C9B58772C3374D132D54B79E /* popup_santa.png in Resources */ = {isa = PBXBuildFile; fileRef = 85288BF143D609A7145A7846 /* popup_santa.png */; };
 		D256FE4FDF4FDC2AF346BD7B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C04CF121E2CAC61D549125 /* CoreText.framework */; };
@@ -119,7 +119,6 @@
 		F8DEB16CA5084A02112ACF8E /* Launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 959C749EEFBCC25DCDCC1416 /* Launch.xib */; };
 		FAA88DA5B6CB123CB79FAB1E /* step6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D05C1274204C92F13ABD8599 /* step6@2x.png */; };
 		FB3CCF78441EF08378478AAA /* MarkersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D5258F1365BCD57029138 /* MarkersViewController.m */; };
-		FF3DA502EBB043CA9CBCC44C /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2325AC9E493AAC86F87681E /* GoogleMaps.framework */; };
 		FF5B48D04F4CA6E5E78737D6 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D03EB3995F5EF92504D8E44F /* Default-Portrait@2x~ipad.png */; };
 		FF90C83B482F1E9B6B3CEDE9 /* bulgaria.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF511F09C737A22E0A76E59 /* bulgaria.png */; };
 /* End PBXBuildFile section */
@@ -201,6 +200,7 @@
 		7B4AF795B18672B900DE3568 /* MarkerEventsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkerEventsViewController.h; sourceTree = "<group>"; };
 		7BBAEFAF2820EDE4EBA5D943 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		7BFD80C8485C48F2C90C85A8 /* GradientPolylinesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientPolylinesViewController.m; sourceTree = "<group>"; };
+		7CDE3AE2072FBAE723CA01AE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC4132AB51E1500FF16E4C5 /* voyager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voyager.png; sourceTree = "<group>"; };
 		81B8039817FFB9A398E1158B /* DoubleMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleMapViewController.h; sourceTree = "<group>"; };
 		837C86EA9AC87A3A5EA16145 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -210,7 +210,6 @@
 		88F50C2BAD0B000697EBECCE /* boat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boat@2x.png"; sourceTree = "<group>"; };
 		8B3EA327A271CA6A64D117A6 /* FitBoundsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitBoundsViewController.m; sourceTree = "<group>"; };
 		8EB73A280D8FE0A1D2C054C8 /* bulgaria-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bulgaria-large.png"; sourceTree = "<group>"; };
-		8F59372BD761533A2A6B470A /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = wrapper.cfbundle; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		8F6ED0C99E84A5FE46148309 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		90258FFF395A5E25CCEC3AB0 /* PolygonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolygonsViewController.m; sourceTree = "<group>"; };
 		9285758C5E07413BA20C8840 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -250,7 +249,6 @@
 		D03EB3995F5EF92504D8E44F /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		D05C1274204C92F13ABD8599 /* step6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step6@2x.png"; sourceTree = "<group>"; };
 		D1B2675ECA97CB1F5D0F5F88 /* MapTypesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapTypesViewController.h; sourceTree = "<group>"; };
-		D2325AC9E493AAC86F87681E /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		D2DFE1BF52A3A8AFFF379322 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		D619B3D989A533F358F1D077 /* botswana-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botswana-large.png"; sourceTree = "<group>"; };
 		D6A64F2A232BF392091BFB79 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -259,6 +257,7 @@
 		D83F65E0A08406E055A906B0 /* step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2.png; sourceTree = "<group>"; };
 		D8C04CF121E2CAC61D549125 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		DABC6731995E50EBF60E82DA /* VisibleRegionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisibleRegionViewController.m; sourceTree = "<group>"; };
+		DB51746A40B2AC8518078552 /* Pods.default.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.default.xcconfig; path = "Pods/Target Support Files/Pods/Pods.default.xcconfig"; sourceTree = "<group>"; };
 		DBBB2837C3A8ADB3D5191304 /* PanoramaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanoramaViewController.m; sourceTree = "<group>"; };
 		DC53293C94A672B4C62AD559 /* step1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step1@2x.png"; sourceTree = "<group>"; };
 		DC8661CA82A046ED2AF5B71F /* MarkerInfoWindowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkerInfoWindowViewController.m; sourceTree = "<group>"; };
@@ -284,7 +283,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF3DA502EBB043CA9CBCC44C /* GoogleMaps.framework in Frameworks */,
 				939D9DD972B3C9CEF6268682 /* libobjc.dylib in Frameworks */,
 				7151879999E96F2B5F8EC9AD /* CoreFoundation.framework in Frameworks */,
 				541DAAB4C469032E7585D5D6 /* Foundation.framework in Frameworks */,
@@ -305,6 +303,7 @@
 				9A09C9C77E8CEC959473BBB4 /* OpenGLES.framework in Frameworks */,
 				B29088B5D465871C06402A9A /* QuartzCore.framework in Frameworks */,
 				0C50E0E757CCCCAFCC64FBB4 /* SystemConfiguration.framework in Frameworks */,
+				C6E97D63C5212999CD919E2B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +334,6 @@
 				D8C04CF121E2CAC61D549125 /* CoreText.framework */,
 				C9926C6844E111CB23EF2E80 /* Foundation.framework */,
 				7B47995B2A94F831E8B7DD0F /* GLKit.framework */,
-				D2325AC9E493AAC86F87681E /* GoogleMaps.framework */,
 				B247AC68273A6B9F29ED6CDC /* ImageIO.framework */,
 				7BBAEFAF2820EDE4EBA5D943 /* OpenGLES.framework */,
 				4D35CE548040C1EF3B8BD581 /* QuartzCore.framework */,
@@ -346,8 +344,17 @@
 				8F6ED0C99E84A5FE46148309 /* libicucore.dylib */,
 				74F5EF3ED006A948BCC2BF82 /* libobjc.dylib */,
 				AAA8B2B19FA46102744D14EF /* libz.dylib */,
+				7CDE3AE2072FBAE723CA01AE /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AEE6D464E66614539769729 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB51746A40B2AC8518078552 /* Pods.default.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		4B066C2469FD81496EBDEF55 /* Resources */ = {
@@ -398,14 +405,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		55584DEF78F797697AA2FD6D /* GoogleMaps.framework/Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8F59372BD761533A2A6B470A /* GoogleMaps.bundle */,
-			);
-			path = GoogleMaps.framework/Resources;
-			sourceTree = "<group>";
-		};
 		5F82E697DB805D8F5C7C7129 /* Museum-Icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,7 +441,6 @@
 		6B58453C62AFCD886F0EED66 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				55584DEF78F797697AA2FD6D /* GoogleMaps.framework/Resources */,
 				99979DB0F5D442647B9411F8 /* SDKDemos */,
 			);
 			name = Source;
@@ -538,6 +536,7 @@
 				2DBE6964ECA9681577AD08E9 /* Frameworks */,
 				E432E4A5C2DA557A55565E67 /* Products */,
 				D7938F561BAB3DB37E038EF7 /* Build */,
+				3AEE6D464E66614539769729 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -564,9 +563,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 258F0E920477D8ADA8B68139 /* Build configuration list for PBXNativeTarget "SDKDemos" */;
 			buildPhases = (
+				3A978385337DE66D9BB7D2F0 /* Check Pods Manifest.lock */,
 				ADA7B6829517252313848C86 /* Resources */,
 				2F23BF35CD9D8A7EBB7A3277 /* Sources */,
 				9F427D7DE56744A968901ED9 /* Frameworks */,
+				A159950ACF94B8FC1696593A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -670,11 +671,43 @@
 				81EE689DC035CAF1D9C479FD /* museum-exhibits.json in Resources */,
 				93179278EF404CB0AB3AD109 /* track.json in Resources */,
 				F8DEB16CA5084A02112ACF8E /* Launch.xib in Resources */,
-				6C86DB77A73CAEE2C48E6668 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A978385337DE66D9BB7D2F0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A159950ACF94B8FC1696593A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F23BF35CD9D8A7EBB7A3277 /* Sources */ = {
@@ -724,18 +757,19 @@
 /* Begin XCBuildConfiguration section */
 		182F5544C35981299E88F8A3 /* Default */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB51746A40B2AC8518078552 /* Pods.default.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "./SDKDemos/SDKDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LIBRARY_SEARCH_PATHS = (
 					.,
 					"$(SDKROOT)/System/Library/Frameworks",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = SDKDemos;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -750,6 +784,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution: mapipo office (6DLFAS9BJQ)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				SDKROOT = iphoneos;
